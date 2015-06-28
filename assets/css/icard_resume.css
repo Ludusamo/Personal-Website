@@ -313,7 +313,7 @@ hr {
     color: white;
     right: -13px;
     display: inline-block;
-    background: #D84E4E;
+    background: #ff6600;
     padding: 1px 5px;
     border-radius: 5px;
 }
@@ -342,7 +342,7 @@ hr {
 }
 
 .list-strip li:nth-child(even) {
-    background: #BA4E4E;
+    background: #ff6600;
 }
 
 .btn-flat {
