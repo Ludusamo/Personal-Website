@@ -136,7 +136,7 @@ hr {
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #eeeeee;
+    background-color: #000000;
     margin-left: -1.5px;
     left: 2%;
 }
