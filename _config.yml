@@ -1,7 +1,7 @@
 # Site settings
 title: Brendan Horng
 description:
-favicon: /assets/img/logoV2Thumb.png
+favicon: http://imgur.com/itAvIo8
 baseurl: /Personal-Website
 url: http://ludusamo.github.io
 rss_url: /pages/atom.xml
@@ -20,7 +20,7 @@ author:
   github: Ludusamo
   linkedin: Brendan-Horng
   twitter: Ludusamo
-  gavatar: /assets/img/logoV2Thumb.png
+  gavatar: http://imgur.com/itAvIo8
   projectHistory:
     - project1:
       name: Locating and Identifying Viable Asteroids
