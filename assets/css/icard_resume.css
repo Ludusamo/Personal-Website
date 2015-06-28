@@ -82,8 +82,7 @@ hr {
 
 .grid-block {
     background-color: #222222;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 1px solid #dddddd;
+    background-color: rgba(10, 10, 10, 0.4);
     padding: 15px 25px;
     margin: 10px 0;
 }
@@ -137,7 +136,7 @@ hr {
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #000000;
+    background-color: #ffffff;
     margin-left: -1.5px;
     left: 2%;
 }
@@ -170,7 +169,6 @@ hr {
 
 .timeline > li > .timeline-panel {
     float: left;
-    border: 1px solid #222222;
     border-radius: 2px;
     padding: 20px;
     position: relative;
