@@ -15,7 +15,7 @@ author:
   title: Software Developer
   address: New Jersey, US
   email: brendan.horng@ludusamo.com
-  link: brendan.horng.ludusamo.com
+  link: ludusamo.com
   weibo:
   github: Ludusamo
   linkedin: Brendan-Horng
@@ -46,6 +46,13 @@ author:
       started: 2015
       duration: (2015 - Present)
       description: Worked as an intern. 
+    - work2:
+      company: Academy After Hours
+      location: New Jersey, US
+      title: Assistant Instructor
+      started: 2013
+      duration: (2013 - 2013)
+      description: Taught classes in Non-Routine Problem Solving and Robotics. Worked with students spanning from grades 1-8. Taught basic programming. Organized class plans.
   educationHistory:
     - education1:
       organization: Bergen County Academies
@@ -66,17 +73,23 @@ author:
       proficiency: Conversational
   programmingSkills:
     - skill1:
-      name: C++
+      name: C/C++
       percentage: 100%
     - skill2:
-      name: C
-      percentage: 80%
-    - skill3:
       name: Java
-      percentage: 90%
-    - skill4:
+      percentage: 100%
+    - skill3:
       name: Unity
+      percentage: 85%
+    - skill4:
+      name: Python
       percentage: 80%
     - skill5:
-      name: Java/Java EE
+      name: Web Development
+      percentage: 70%
+    - skill6:
+      name: Microsoft Office Suite
+      percentage: 100%
+    - skill7:
+      name: Linux BASH Scripting
       percentage: 90%

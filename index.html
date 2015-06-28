@@ -25,7 +25,7 @@ layout: default
 					{% for member in project.team %}
 						{{ member.name }} </br>
 					{% endfor %}
-					Website: {{ project.website }}
+					Website: <a href="{{ project.website }}" target="_blank"> {{ project.website }} </a>
                                     </p>
                                 </div>
                                 <div class="timeline-body">
