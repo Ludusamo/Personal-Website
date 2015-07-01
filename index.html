@@ -23,8 +23,9 @@ layout: default
                                     <p>
 				    	<small class="text-muted">
 						{% if project.duration %}
-                                                	<i class="fa fa-calendar"></i> {{ work.duration }} |
+                                                	<i class="fa fa-calendar"></i> {{ project.duration }} |
                                             	{% endif %}
+						</br>
 						The Team: </br>
 						{% for member in project.team %}
 							{{ member.name }}
@@ -134,7 +135,7 @@ layout: default
                     <ul class="list-unstyled list-skills">
                         {% for technologySkill in site.author.technologySkills %}
                             <li>
-                                {% if techonologySkill.name %}
+                                {% if technologySkill.name %}
                                     <span class="caption-skill">{{ technologySkill.name }}</span>
                                 {% endif %}
                                 {% if technologySkill.percentage %}
