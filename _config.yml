@@ -60,10 +60,10 @@ author:
     - work1:
       company: BrightLogic
       location: New Jersey, US
-      title: Intern
+      title: Software Development Intern
       started: 2015
       duration: (2015 - Present)
-      description: Worked as an intern. 
+      description: Worked as an intern at BrightLogic and assisted in creating applications for their ActiveFloor product. Application construction is done primarily in Unity.
     - work2:
       company: Academy After Hours
       location: New Jersey, US
