@@ -24,7 +24,7 @@ author:
   projectHistory:
     - project1:
       name: Locating and Identifying Viable Asteroids
-      started: 2014
+      duration: (May 2014-November 2015)
       team:
         - member1:
           name: Brendan Horng
@@ -38,6 +38,24 @@ author:
           name: Nina Arcot
       website: https://github.com/Ludusamo/Asteroid-Project
       description: Completed for the NASA Epic Challenge. The team created a system capable of being sent to asteroids to determine potential for water content.
+    - project2:
+      name: High Energy Particle Detection
+      duration: (December 2014-Present)
+      team:
+        - member1:
+          name: Justin Shetty
+        - member2:
+          name: Brendan Horng
+        - member3:
+          name: Evan Shi
+        - member4:
+          name: Jack Neus
+        - member5:
+          name: Daniel Gu
+        - member6:
+          name: Nina Arcot
+      website:
+      description: Our team is currently working on creating a drift-tube style particle detector. Our detector is based upon work done by researchers at the University of Pennsylvania, who originally based their designs off of the type of detectors used in the ATLAS at CERN.
   workHistory:
     - work1:
       company: BrightLogic
@@ -71,7 +89,7 @@ author:
     - language3:
       name: Spanish
       proficiency: Conversational
-  programmingSkills:
+  technologySkills:
     - skill1:
       name: C/C++
       percentage: 100%
@@ -93,3 +111,6 @@ author:
     - skill7:
       name: Linux BASH Scripting
       percentage: 90%
+    - skill8:
+      name: LaTeX
+      percentage: 75%

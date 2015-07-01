@@ -22,9 +22,12 @@ layout: default
                                     {% endif %}
                                     <p>
 				    	<small class="text-muted">
+						{% if work.duration %}
+                                                	<i class="fa fa-calendar"></i> {{ work.duration }} |
+                                            	{% endif %}
 						The Team: </br>
 						{% for member in project.team %}
-							{{ member.name }} </br>
+							{{ member.name }}
 						{% endfor %}
 						Website: <a href="{{ project.website }}" target="_blank"> {{ project.website }} </a>
 					</small>
@@ -125,19 +128,19 @@ layout: default
             {% endif %}
         </div>
         <div class="col-md-4">
-            {% if site.author.programmingSkills %}
-                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
+            {% if site.author.technologySkills %}
+                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Technology Skills</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.author.programmingSkills %}
+                        {% for technologySkill in site.author.technologySkills %}
                             <li>
-                                {% if programmingSkill.name %}
-                                    <span class="caption-skill">{{ programmingSkill.name }}</span>
+                                {% if techonologySkill.name %}
+                                    <span class="caption-skill">{{ technologySkill.name }}</span>
                                 {% endif %}
-                                {% if programmingSkill.percentage %}
+                                {% if technologySkill.percentage %}
                                     <div class="progress">
-                                        <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
-                                            <span>{{ programmingSkill.percentage }} </span>
+                                        <div class="progress-bar" style="width: {{ technologySkill.percentage }}">
+                                            <span>{{ technologySkill.percentage }} </span>
                                         </div>
                                     </div>
                                 {% endif %}
