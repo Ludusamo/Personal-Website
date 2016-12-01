@@ -58,13 +58,27 @@ author:
       description: Our team is currently working on creating a drift-tube style particle detector. Our detector is based upon work done by researchers at the University of Pennsylvania, who originally based their designs off of the type of detectors used in the ATLAS at CERN.
   workHistory:
     - work1:
+      company: Escape the Room NYC
+      location: New York, US
+      title: Software Developer
+      started: 2016
+      duration: (2016 - Present)
+      description: Work on Unity Application for interactive components of an escape the room game. Work closely with puzzle designers to link physical components of the room to present an immersive digital component.
+    - work2:
+      company: Zaniac
+      location: New York, US
+      title: Instructor
+      started: 2016
+      duration: (2016 - Present)
+      description:
+    - work3:
       company: BrightLogic
       location: New Jersey, US
       title: Software Development Intern
       started: 2015
-      duration: (2015 - Present)
+      duration: (2015 - 2016)
       description: Worked as an intern at BrightLogic and assisted in creating applications for their ActiveFloor product. Application construction is done primarily in Unity.
-    - work2:
+    - work4:
       company: Academy After Hours
       location: New Jersey, US
       title: Assistant Instructor
@@ -73,19 +87,26 @@ author:
       description: Taught classes in Non-Routine Problem Solving and Robotics. Worked with students spanning from grades 1-8. Taught basic programming. Organized class plans.
   educationHistory:
     - education1:
+      organization: New York University Tandon School of Engineering
+      degree: Bachelor's Science Degree
+      major: Computer Science
+      started: 2016
+      duration: (2012 - Present)
+      description: Current student at Tandon School of Engineering in Brooklyn, New York.
+    - education2:
       organization: Bergen County Academies
       degree: Highschool
       major: Software Engineering
       started: 2012
-      duration: (2012 - Present)
+      duration: (2012 - 2-16)
       description:  Education in the Academy for the Advancement of Technology. Conducted research.
   languages:
     - language1:
       name: Chinese
-      proficiency: Native
+      proficiency: Conversational
     - language2:
       name: English
-      proficiency: Professional
+      proficiency: Native
     - language3:
       name: Spanish
       proficiency: Conversational
